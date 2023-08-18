@@ -5651,9 +5651,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.5.0
-  resolution: "@types/node@npm:20.5.0"
-  checksum: 3288e2dbffdf5ae1a96c8938ef9f9b5403237d74b28795c630f8db36176139725f86b2d534bbbaa8b456986fe841d24241a7850247353edbd2c9b8d180a9de0e
+  version: 20.5.1
+  resolution: "@types/node@npm:20.5.1"
+  checksum: b5aeaeb489842081190f8c2c09e923ff7b1b4ee3ecfceba12ba1030ce7750909a1b3c0f5372bd60cbe955e48a9889f416522e8a96697ad7209317752f395e3e5
   languageName: node
   linkType: hard
 
@@ -7883,7 +7883,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.0.0, browserslist@npm:^4.14.5, browserslist@npm:^4.21.4, browserslist@npm:^4.21.9":
+"browserslist@npm:^4.0.0, browserslist@npm:^4.14.5, browserslist@npm:^4.21.10, browserslist@npm:^4.21.4, browserslist@npm:^4.21.9":
   version: 4.21.10
   resolution: "browserslist@npm:4.21.10"
   dependencies:
@@ -8955,25 +8955,32 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.31.0":
-  version: 3.32.0
-  resolution: "core-js-compat@npm:3.32.0"
+  version: 3.32.1
+  resolution: "core-js-compat@npm:3.32.1"
   dependencies:
-    browserslist: ^4.21.9
-  checksum: 9d3164c4c2ab602d22a6f653611a72fc3fe875b69379dad974786b01e8f93ba338bdb27c0b46d9aaf40ebd97c275a0004d3051c33691de3b2da3e636399a63a0
+    browserslist: ^4.21.10
+  checksum: 59f1897ec3f6b67b9a68e146ce66ee76186e17b3ab4ecd0cd638a2cd8427e52d4dba5ca0190dc2986b9be05c99af721e2e689396bffa54efa8020a9b3ad96067
   languageName: node
   linkType: hard
 
 "core-js-pure@npm:^3.23.3, core-js-pure@npm:^3.30.2":
-  version: 3.32.0
-  resolution: "core-js-pure@npm:3.32.0"
-  checksum: c75718c38d00609bbf0e14d7f8116c811d745b1b168c9f36a46e8b99110a29ca9d061426f7c14a11f8bc7658240ddc6470dcbc497249e70ca0476b3ef22e323a
+  version: 3.32.1
+  resolution: "core-js-pure@npm:3.32.1"
+  checksum: f86fb7fbdb53b05b8413ca32995326ba13516f859c54b524f89ac78cd9fcaa6ccdd9172e7105cd38b7d9c7c3d5a7d7c61e4f631af850672fdc25de4fc63ff379
   languageName: node
   linkType: hard
 
-"core-js@npm:3.32.0, core-js@npm:^3.30.2":
+"core-js@npm:3.32.0":
   version: 3.32.0
   resolution: "core-js@npm:3.32.0"
   checksum: 8839b9a5cfff4999cf5e3277072c7c581b29618c6dbc2f9d0170c529a701310ec78843bd97bede0742cf6899b526bdb062bb1d148c6e9a40f3d19173b7ee8e88
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.30.2":
+  version: 3.32.1
+  resolution: "core-js@npm:3.32.1"
+  checksum: 994ba8379331c8e1dcbd28dc4952208b629c2dec8b8fbb6104f85282c9dfd0b1f76f23ea42778ad7ef236626cc29e403562c6a0726004fd39eaf5c7d618f7fa2
   languageName: node
   linkType: hard
 
@@ -10045,9 +10052,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.477":
-  version: 1.4.494
-  resolution: "electron-to-chromium@npm:1.4.494"
-  checksum: ddbdabd70008934a9c9db1e48419aeaab0df87fc3037f2d14b746aa7a904b7511cc34a274dfb084473d90a3fceea7d49ac1010e1058afc9db2b57fffe19f5167
+  version: 1.4.496
+  resolution: "electron-to-chromium@npm:1.4.496"
+  checksum: 7c46af3c5da6cbdf97904b91f88f537b9bd8f3d60c9064431a4d871e7871301212218b61d622c353343aa0d30c446030327e8c26a81efd910bc93b0b6cf0391d
   languageName: node
   linkType: hard
 
@@ -13975,11 +13982,11 @@ __metadata:
   linkType: hard
 
 "jiti@npm:^1.17.1":
-  version: 1.19.1
-  resolution: "jiti@npm:1.19.1"
+  version: 1.19.3
+  resolution: "jiti@npm:1.19.3"
   bin:
     jiti: bin/jiti.js
-  checksum: c09f15b3ef81f0fcda45f96aaecd130213c81d8a9b8a92f5eb4f8d21972b833b2ef494db8fb3e819b258ceb569b9d5cfa3facbd2d786ecf0bc0fd0e98cc862f7
+  checksum: af20dd39f1724af472cad96143dbab6bae8fa63b1f54542d9b0f9d917a66f99cdbe4a58d23250b068c9c85630b2051a76454fb40db136c834f625e97398d6db4
   languageName: node
   linkType: hard
 
@@ -17200,11 +17207,11 @@ __metadata:
   linkType: hard
 
 "pvtsutils@npm:^1.3.2":
-  version: 1.3.4
-  resolution: "pvtsutils@npm:1.3.4"
+  version: 1.3.5
+  resolution: "pvtsutils@npm:1.3.5"
   dependencies:
     tslib: ^2.6.1
-  checksum: 8a8069115dc479c8802960a20c8d1ed50055280755b749e8e9665e30db545c1759d4ed68b9d3844e9463945011e4371d4e979c6cd68217e882f064caf0208480
+  checksum: d425aed316907e0b447a459bfb97c55d22270c3cfdba5a07ec90da0737b0e40f4f1771a444636f85bb6a453de90ff8c6b5f4f6ddba7597977166af49974b4534
   languageName: node
   linkType: hard
 
@@ -19765,9 +19772,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.0.0, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.5.2, tslib@npm:^2.6.1":
-  version: 2.6.1
-  resolution: "tslib@npm:2.6.1"
-  checksum: a0382d386f5f1d6e3a39ab22bc56d1e08493da99ab3daf550e63bae6c08fdd6dd4fd20623ef387cad8262ce3fede98439257054fc025f2103cd4603b4509a052
+  version: 2.6.2
+  resolution: "tslib@npm:2.6.2"
+  checksum: e03a8a4271152c8b26604ed45535954c0a45296e32445b4b87f8a5abdb2421f40b59b4ca437c4346af0f28179780d604094eb64546bee2019d903d01c6c19bdb
   languageName: node
   linkType: hard
 
