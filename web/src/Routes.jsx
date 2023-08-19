@@ -15,6 +15,7 @@ import SubmitterLayout from 'src/layouts/SubmitterLayout'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/project" page={ProjectPage} name="project" />
       <Set wrap={SubmitterLayout}>
         <Route path="/about" page={AboutPage} name="about" />
         <Route path="/" page={HomePage} name="home" />
