@@ -16,6 +16,7 @@ export const Failure = ({ error }) => (
 )
 
 export const Success = ({ projects }) => {
+  console.log(projects)
   return (
     <ul>
       {projects.map((item) => {
