@@ -1,6 +1,6 @@
 import { MetaTags } from '@redwoodjs/web'
 
-import ProjectsCell from 'src/components/Project/ProjectsCell'
+import ProjectsCell from 'src/components/ProjectsCell'
 
 const HomePage = () => {
   return (
